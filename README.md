@@ -23,6 +23,7 @@ homeswar = {
     "focus"      : ["Machine Learning", "NLP", "MLOps", "Healthcare AI"],
     "competition": ["Kaggle — CAFA-6", "BirdCLEF+", "March Mania", "AI Math Olympiad"],
     "cloud"      : ["AWS", "GCP", "Microsoft Azure", "Microsoft Fabric"],
+    "location"   : "USA 🇺🇸",
     "currently"  : "Building production-grade AI systems",
     "fun_fact"   : "I turn raw data into intelligent systems 🚀"
 }
