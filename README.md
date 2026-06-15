@@ -1,47 +1,68 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1a1a2e,100:16213e&height=200&section=header&text=Homeswar%20Rao%20Nelakurthi&fontSize=42&fontColor=58a6ff&animation=fadeIn&fontAlignY=38&desc=Data%20Scientist%20%7C%20Machine%20Learning%20Engineer&descAlignY=58&descSize=18&descColor=8b949e" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0D1117,50:1a1a2e,100:16213e&height=210&section=header&text=Homeswar%20Rao%20Nelakurthi&fontSize=40&fontColor=58a6ff&animation=fadeIn&fontAlignY=40&desc=Data%20Scientist%20%C2%B7%20Machine%20Learning%20Engineer&descAlignY=60&descSize=18&descColor=8b949e" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=720&lines=Data+Scientist+%7C+Machine+Learning+Engineer;Kaggle+Competition-Driven+Deep+Learning;NLP%2C+LLMs+and+Generative+AI;End-to-End+MLOps+on+Azure%2C+AWS+and+GCP;From+Raw+Data+to+Production+Deployment)](https://git.io/typing-svg)
-
-[![GitHub](https://img.shields.io/badge/GitHub-homeshwarnelakurthi-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/homeshwarnelakurthi)
-[![Kaggle](https://img.shields.io/badge/Kaggle-Competitor-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/homeshwarnelakurthi)
+[![GitHub](https://img.shields.io/badge/GitHub-homeshwarnelakurthi-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/homeshwarnelakurthi)
+&nbsp;
+[![Kaggle](https://img.shields.io/badge/Kaggle-homeshwarrao-20BEFF?style=flat-square&logo=kaggle&logoColor=white)](https://www.kaggle.com/homeshwarrao)
+&nbsp;
+![Focus](https://img.shields.io/badge/Focus-Deep%20Learning%20%C2%B7%20NLP%20%C2%B7%20MLOps-58a6ff?style=flat-square)
 
 </div>
 
+```bash
+~ $ whoami
+Homeswar Rao Nelakurthi — Data Scientist & Machine Learning Engineer
+
+~ $ cat focus.txt
+Competition-grade deep learning  ·  NLP & LLMs / GenAI  ·  end-to-end MLOps
+
+~ $ ./status --now
+Turning raw data into production ML systems — research to cloud deployment,
+built iteratively, versioned, and reproducible.
+```
+
 ---
-
-## Data Scientist & Machine Learning Engineer
-
-I build **end-to-end, production-ready machine learning systems** — from competition-grade deep learning research to deployed MLOps pipelines on the cloud. My portfolio spans **Kaggle competitions** (bioacoustics, computational biology, LLM reasoning, geospatial modeling), **NLP & Generative AI**, and **MLOps & Cloud Data Engineering**, with a recurring focus on **healthcare and systems** applications. I work iteratively and agile — versioned experiments, reproducible pipelines, and continuous deployment.
-
----
-
-## Kaggle Spotlight — Competitive Data Science
 
 <div align="center">
 
-[![View My Kaggle Profile](https://img.shields.io/badge/View%20My%20Kaggle%20Profile-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/homeshwarnelakurthi)
+### ▮ KAGGLE — COMPETITION TRACK RECORD
+
+[![Kaggle Profile](https://img.shields.io/badge/kaggle.com%2Fhomeshwarrao-View%20Profile-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/homeshwarrao)
 
 </div>
 
-Competition work is where I sharpen modeling depth — rigorous cross-validation, ensembling, domain-specific feature engineering, and disciplined experiment logging across deep learning, computational biology, and LLM reasoning.
+Where I sharpen modeling depth — rigorous cross-validation, ensembling, domain-specific feature engineering, and disciplined experiment logging.
 
-| Competition | Domain | Approach & Architectures |
-|---|---|---|
-| [CAFA-6 Protein Function Prediction](https://github.com/homeshwarnelakurthi/CAFA-6-Protein-Function-Prediction) | Computational Biology | Multi-label GO-term prediction — **ESM protein embeddings**, SE-ResNet, KNN ensemble, GO-graph label propagation |
-| [BirdCLEF 2026](https://github.com/homeshwarnelakurthi/birdclef-2026) | Bioacoustics / Audio | **End-to-end PyTorch pipeline** — spectrogram models, Perch embeddings, pseudo-labelling |
-| [Stanford RNA 3D Folding](https://github.com/homeshwarnelakurthi/Stanford-RNA-3D-Folding-) | Structural Biology | Sequence-to-structure **deep learning** for RNA 3D coordinate prediction |
-| [AI Mathematical Olympiad](https://github.com/homeshwarnelakurthi/AI-Mathematical-Olympiad) | LLM Reasoning | **Chain-of-thought** prompting + tool-augmented LLMs for formal math problem solving |
-| [March Machine Learning Mania 2026](https://github.com/homeshwarnelakurthi/March-Machine-Learning-Mania-2026) | Sports Prediction | **Elo ratings + XGBoost / LightGBM** ensemble for tournament outcome modeling |
-| [ROGII Wellbore Geology](https://github.com/homeshwarnelakurthi/kaggle-rogii-wellbore-geology) | Geospatial Regression | **LightGBM on detrended residuals**, GroupKFold validation, GP/kriging research with a fully documented experiment log |
+```text
+COMPETITION                          DOMAIN                  STACK / APPROACH
+──────────────────────────────────────────────────────────────────────────────────────
+CAFA-6 Protein Function              Computational Biology   ESM embeddings · SE-ResNet · ensemble · GO propagation
+BirdCLEF 2026                        Bioacoustics / Audio    PyTorch · spectrograms · Perch embeddings · pseudo-labels
+Stanford RNA 3D Folding              Structural Biology      sequence-to-structure deep learning
+AI Mathematical Olympiad             LLM Reasoning           chain-of-thought · tool-augmented LLMs
+March ML Mania 2026                  Sports Prediction       Elo ratings · XGBoost · LightGBM ensemble
+ROGII Wellbore Geology               Geospatial Regression   LightGBM residuals · GroupKFold · GP/kriging research
+──────────────────────────────────────────────────────────────────────────────────────
+```
+
+<div align="center">
+
+[CAFA-6](https://github.com/homeshwarnelakurthi/CAFA-6-Protein-Function-Prediction) ·
+[BirdCLEF](https://github.com/homeshwarnelakurthi/birdclef-2026) ·
+[RNA Folding](https://github.com/homeshwarnelakurthi/Stanford-RNA-3D-Folding-) ·
+[AI Math Olympiad](https://github.com/homeshwarnelakurthi/AI-Mathematical-Olympiad) ·
+[March Mania](https://github.com/homeshwarnelakurthi/March-Machine-Learning-Mania-2026) ·
+[ROGII Geology](https://github.com/homeshwarnelakurthi/kaggle-rogii-wellbore-geology)
+
+</div>
 
 ---
 
-## Project Showcase
+## ▮ Project Showcase
 
-### Deep Learning & Kaggle Competitions
-PyTorch deep learning, gradient-boosted ensembles, and competition-grade validation across audio, biology, mathematics, and geoscience.
+### Deep Learning & Competitions
+PyTorch deep learning and gradient-boosted ensembles across audio, biology, mathematics, and geoscience.
 
 | Repository | Focus | Techniques |
 |---|---|---|
@@ -50,7 +71,7 @@ PyTorch deep learning, gradient-boosted ensembles, and competition-grade validat
 | [Stanford-RNA-3D-Folding-](https://github.com/homeshwarnelakurthi/Stanford-RNA-3D-Folding-) | RNA tertiary structure | Sequence-to-structure deep learning |
 | [AI-Mathematical-Olympiad](https://github.com/homeshwarnelakurthi/AI-Mathematical-Olympiad) | LLM math reasoning | Chain-of-thought, tool-augmented LLMs |
 | [March-Machine-Learning-Mania-2026](https://github.com/homeshwarnelakurthi/March-Machine-Learning-Mania-2026) | Tournament prediction | Elo, XGBoost, LightGBM |
-| [kaggle-rogii-wellbore-geology](https://github.com/homeshwarnelakurthi/kaggle-rogii-wellbore-geology) | Geospatial TVT regression | LightGBM residual model, GroupKFold, GP/kriging, MLOps-style research log |
+| [kaggle-rogii-wellbore-geology](https://github.com/homeshwarnelakurthi/kaggle-rogii-wellbore-geology) | Geospatial TVT regression | LightGBM residual model, GroupKFold, GP/kriging, documented experiment log |
 
 ### NLP & Generative AI
 Retrieval-augmented LLM applications and end-to-end NLP pipelines with transformer models and cloud-native serving.
@@ -81,7 +102,6 @@ Classical ML, feature engineering, and exploratory data analysis on large real-w
 | [movielens-case-study](https://github.com/homeshwarnelakurthi/movielens-case-study) | Recommendation & rating prediction | EDA, multi-model comparison, feature engineering |
 
 ### Applied Health & Systems
-Domain applications in healthcare records, secure health data, and systems tooling.
 
 | Repository | Focus |
 |---|---|
@@ -92,67 +112,73 @@ Domain applications in healthcare records, secure health data, and systems tooli
 
 ---
 
-## End-to-End & Agile Engineering
+## ▮ End-to-End & Agile Engineering
 
-I ship complete systems, not just notebooks. My MLOps and cloud repositories demonstrate the full lifecycle:
+I ship complete systems, not just notebooks — the full lifecycle, delivered iteratively.
 
-- **Modular pipelines** — data ingestion, validation, transformation, training, and evaluation as discrete, reusable components.
-- **Reproducibility** — versioned experiments, configuration-driven runs, and documented research logs (see the ROGII repo for a complete experiment audit trail).
-- **Deployment** — REST APIs with FastAPI / Flask, containerized with Docker, deployed to AWS, GCP Cloud Run, and Azure.
-- **Monitoring & CI/CD** — data/model drift monitoring (Evidently AI) and automated pipelines for continuous delivery.
-- **Agile delivery** — iterative experimentation, incremental improvement, and metric-driven decision making.
+```text
+  data ──▶ features ──▶ model ─────────────▶ FastAPI ──▶ Docker ──▶ Cloud
+                        PyTorch · LightGBM                          AWS · GCP · Azure
+                        │
+                        └─ GroupKFold CV · experiment logs · drift monitoring · CI/CD
+```
+
+- **Modular pipelines** — ingestion, validation, transformation, training, and evaluation as reusable components.
+- **Reproducibility** — versioned experiments and documented research logs (see the ROGII repo for a full audit trail).
+- **Deployment** — FastAPI / Flask REST services, containerized with Docker, on AWS, GCP Cloud Run, and Azure.
+- **Monitoring & CI/CD** — data/model drift monitoring (Evidently AI) with automated delivery pipelines.
 
 ---
 
-## Tech Stack
+## ▮ Tech Stack
 
-**Languages & Core**
+**Languages**
+&nbsp;
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+**ML / Deep Learning**
+&nbsp;
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![LightGBM](https://img.shields.io/badge/LightGBM-2ECC71?style=flat-square)
+![XGBoost](https://img.shields.io/badge/XGBoost-0073CF?style=flat-square&logo=xgboost&logoColor=white)
 
-**Machine Learning & Deep Learning**
+**NLP / LLMs / GenAI**
+&nbsp;
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-6B48FF?style=flat-square)
+![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat-square)
+![Gemini](https://img.shields.io/badge/Google%20Gemini-4285F4?style=flat-square&logo=google&logoColor=white)
 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![LightGBM](https://img.shields.io/badge/LightGBM-2ECC71?style=for-the-badge)
-![XGBoost](https://img.shields.io/badge/XGBoost-0073CF?style=for-the-badge&logo=xgboost&logoColor=white)
-
-**NLP, LLMs & Generative AI**
-
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-6B48FF?style=for-the-badge)
-![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=for-the-badge)
-![Gemini](https://img.shields.io/badge/Google%20Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
-
-**Data & Visualization**
-
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
-![Seaborn](https://img.shields.io/badge/Seaborn-4C8CBF?style=for-the-badge)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+**Data & Viz**
+&nbsp;
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C8CBF?style=flat-square)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 
 **MLOps & Deployment**
+&nbsp;
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
-**Cloud & Data Engineering**
-
-![Azure](https://img.shields.io/badge/Microsoft%20Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![GCP](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+**Cloud**
+&nbsp;
+![Azure](https://img.shields.io/badge/Microsoft%20Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![GCP](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 
 ---
 
-## GitHub Analytics
+## ▮ GitHub Analytics
 
 <div align="center">
 
@@ -165,17 +191,14 @@ I ship complete systems, not just notebooks. My MLOps and cloud repositories dem
 
 ---
 
-## Connect
-
 <div align="center">
+
+### ▮ Connect
 
 [![GitHub](https://img.shields.io/badge/GitHub-homeshwarnelakurthi-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/homeshwarnelakurthi)
-[![Kaggle](https://img.shields.io/badge/Kaggle-Profile-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/homeshwarnelakurthi)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/homeshwarnelakurthi)
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:homeshwarnelakurthi@gmail.com)
+[![Kaggle](https://img.shields.io/badge/Kaggle-homeshwarrao-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/homeshwarrao)
+[![Email](https://img.shields.io/badge/Email-homeshwarnelakurthi55@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:homeshwarnelakurthi55@gmail.com)
 
-</div>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:16213e,50:1a1a2e,100:0D1117&height=100&section=footer" width="100%"/>
 
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,50:1a1a2e,100:0D1117&height=100&section=footer" width="100%"/>
 </div>
