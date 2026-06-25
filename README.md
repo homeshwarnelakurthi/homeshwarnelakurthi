@@ -12,7 +12,7 @@
 
 ```bash
 ~ $ whoami
-Homeswar Rao Nelakurthi — Data Scientist & Machine Learning Engineer
+Homeshwar Rao Nelakurthi — Data Scientist & Machine Learning Engineer
 
 ~ $ cat focus.txt
 Competition-grade deep learning  ·  NLP & LLMs / GenAI  ·  end-to-end MLOps
