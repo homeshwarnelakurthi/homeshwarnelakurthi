@@ -7,6 +7,10 @@
 [![Kaggle](https://img.shields.io/badge/Kaggle-homeshwarrao-20BEFF?style=flat-square&logo=kaggle&logoColor=white)](https://www.kaggle.com/homeshwarrao)
 &nbsp;
 ![Focus](https://img.shields.io/badge/Focus-Deep%20Learning%20%C2%B7%20NLP%20%C2%B7%20MLOps-58a6ff?style=flat-square)
+&nbsp;
+![Profile Views](https://komarev.com/ghpvc/?username=homeshwarnelakurthi&color=58a6ff&style=flat-square&label=Profile+Views)
+&nbsp;
+[![Followers](https://img.shields.io/github/followers/homeshwarnelakurthi?style=flat-square&logo=github&label=Followers&color=58a6ff&labelColor=0D1117)](https://github.com/homeshwarnelakurthi?tab=followers)
 
 </div>
 
@@ -24,6 +28,24 @@ built iteratively, versioned, and reproducible.
 
 ---
 
+## ▮ Featured — NVIDIA Nemotron Reasoning Lab
+
+<div align="center">
+
+[![NVIDIA](https://img.shields.io/badge/NVIDIA-Nemotron--3--Nano--30B-76B900?style=for-the-badge&logo=nvidia&logoColor=white)](https://github.com/homeshwarnelakurthi/nemotron-reasoning-lab)
+&nbsp;
+![LoRA](https://img.shields.io/badge/LoRA-rank%2032-58a6ff?style=for-the-badge)
+&nbsp;
+![vLLM](https://img.shields.io/badge/serving-vLLM-EE4C2C?style=for-the-badge)
+
+</div>
+
+An **end-to-end pipeline for improving structured reasoning** in NVIDIA's Nemotron models — synthetic rule-induction puzzle generation with programmatic gold chain-of-thought, chat-format SFT data, rank-32 attention-only LoRA fine-tuning, and a boxed-answer evaluation harness with metric parity to the competition scorer.
+
+> **[→ homeshwarnelakurthi/nemotron-reasoning-lab](https://github.com/homeshwarnelakurthi/nemotron-reasoning-lab)** — stdlib-only core, tested in CI, one command from data to `submission.zip`.
+
+---
+
 <div align="center">
 
 ### ▮ KAGGLE — COMPETITION TRACK RECORD
@@ -37,6 +59,7 @@ Where I sharpen modeling depth — rigorous cross-validation, ensembling, domain
 ```text
 COMPETITION                          DOMAIN                  STACK / APPROACH
 ──────────────────────────────────────────────────────────────────────────────────────
+NVIDIA Nemotron Reasoning            LLM Reasoning           LoRA · CoT SFT · vLLM · PEFT · synthetic data
 CAFA-6 Protein Function              Computational Biology   ESM embeddings · SE-ResNet · ensemble · GO propagation
 BirdCLEF 2026                        Bioacoustics / Audio    PyTorch · spectrograms · Perch embeddings · pseudo-labels
 Stanford RNA 3D Folding              Structural Biology      sequence-to-structure deep learning
@@ -48,6 +71,7 @@ ROGII Wellbore Geology               Geospatial Regression   LightGBM residuals 
 
 <div align="center">
 
+[Nemotron Lab](https://github.com/homeshwarnelakurthi/nemotron-reasoning-lab) ·
 [CAFA-6](https://github.com/homeshwarnelakurthi/CAFA-6-Protein-Function-Prediction) ·
 [BirdCLEF](https://github.com/homeshwarnelakurthi/birdclef-2026) ·
 [RNA Folding](https://github.com/homeshwarnelakurthi/Stanford-RNA-3D-Folding-) ·
@@ -61,6 +85,17 @@ ROGII Wellbore Geology               Geospatial Regression   LightGBM residuals 
 
 ## ▮ Project Showcase
 
+### LLM Reasoning, NLP & Generative AI
+Fine-tuning and retrieval-augmented LLM systems, plus end-to-end NLP pipelines with transformer models and cloud-native serving.
+
+| Repository | Focus | Techniques |
+|---|---|---|
+| [nemotron-reasoning-lab](https://github.com/homeshwarnelakurthi/nemotron-reasoning-lab) | Structured reasoning fine-tuning | LoRA (rank 32), CoT SFT, PEFT, TRL, vLLM, synthetic data |
+| [Medical_chatbot](https://github.com/homeshwarnelakurthi/Medical_chatbot) | Medical conversational assistant | RAG, LangChain, vector retrieval, LLMs |
+| [text-summarizer-project](https://github.com/homeshwarnelakurthi/text-summarizer-project) | Abstractive summarization | HuggingFace Transformers, modular pipeline, FastAPI, Docker |
+| [endtoend_nlp_project](https://github.com/homeshwarnelakurthi/endtoend_nlp_project) | Hate-speech detection | End-to-end NLP classification, Google Cloud Run, FastAPI, Docker |
+| [contact_center](https://github.com/homeshwarnelakurthi/contact_center) | Contact-center conversation analytics | NLP processing pipeline |
+
 ### Deep Learning & Competitions
 PyTorch deep learning and gradient-boosted ensembles across audio, biology, mathematics, and geoscience.
 
@@ -72,16 +107,6 @@ PyTorch deep learning and gradient-boosted ensembles across audio, biology, math
 | [AI-Mathematical-Olympiad](https://github.com/homeshwarnelakurthi/AI-Mathematical-Olympiad) | LLM math reasoning | Chain-of-thought, tool-augmented LLMs |
 | [March-Machine-Learning-Mania-2026](https://github.com/homeshwarnelakurthi/March-Machine-Learning-Mania-2026) | Tournament prediction | Elo, XGBoost, LightGBM |
 | [kaggle-rogii-wellbore-geology](https://github.com/homeshwarnelakurthi/kaggle-rogii-wellbore-geology) | Geospatial TVT regression | LightGBM residual model, GroupKFold, GP/kriging, documented experiment log |
-
-### NLP & Generative AI
-Retrieval-augmented LLM applications and end-to-end NLP pipelines with transformer models and cloud-native serving.
-
-| Repository | Focus | Techniques |
-|---|---|---|
-| [Medical_chatbot](https://github.com/homeshwarnelakurthi/Medical_chatbot) | Medical conversational assistant | RAG, LangChain, vector retrieval, LLMs |
-| [text-summarizer-project](https://github.com/homeshwarnelakurthi/text-summarizer-project) | Abstractive summarization | HuggingFace Transformers, modular pipeline, FastAPI, Docker |
-| [endtoend_nlp_project](https://github.com/homeshwarnelakurthi/endtoend_nlp_project) | Hate-speech detection | End-to-end NLP classification, Google Cloud Run, FastAPI, Docker |
-| [contact_center](https://github.com/homeshwarnelakurthi/contact_center) | Contact-center conversation analytics | NLP processing pipeline |
 
 ### MLOps & Cloud Data Engineering
 Production ML lifecycle — modular pipelines, containerization, CI/CD, monitoring, and cloud data platforms.
@@ -135,22 +160,27 @@ I ship complete systems, not just notebooks — the full lifecycle, delivered it
 **Languages**
 &nbsp;
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-CC2927?style=flat-square)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 
 **ML / Deep Learning**
 &nbsp;
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Lightning](https://img.shields.io/badge/Lightning-792EE5?style=flat-square&logo=lightning&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![LightGBM](https://img.shields.io/badge/LightGBM-2ECC71?style=flat-square)
-![XGBoost](https://img.shields.io/badge/XGBoost-0073CF?style=flat-square&logo=xgboost&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-337AB7?style=flat-square)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
 
 **NLP / LLMs / GenAI**
 &nbsp;
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![PEFT/LoRA](https://img.shields.io/badge/PEFT%20%2F%20LoRA-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![vLLM](https://img.shields.io/badge/vLLM-EE4C2C?style=flat-square)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-6B48FF?style=flat-square)
+![LangGraph](https://img.shields.io/badge/LangGraph-6B48FF?style=flat-square&logo=langgraph&logoColor=white)
 ![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat-square)
 ![Gemini](https://img.shields.io/badge/Google%20Gemini-4285F4?style=flat-square&logo=google&logoColor=white)
 
@@ -160,6 +190,7 @@ I ship complete systems, not just notebooks — the full lifecycle, delivered it
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square)
 ![Seaborn](https://img.shields.io/badge/Seaborn-4C8CBF?style=flat-square)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 
 **MLOps & Deployment**
@@ -168,12 +199,16 @@ I ship complete systems, not just notebooks — the full lifecycle, delivered it
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 **Cloud**
 &nbsp;
-![Azure](https://img.shields.io/badge/Microsoft%20Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![Azure](https://img.shields.io/badge/Microsoft%20Azure-0078D4?style=flat-square)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square)
 ![GCP](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 
 ---
