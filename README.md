@@ -49,7 +49,7 @@ An **end-to-end pipeline for improving structured reasoning** in NVIDIA's Nemotr
 
 > The toolkit I build with — centred on modern LLM / GenAI and deep-learning workflows.
 
-### ⚡ LLMs · GenAI · Fine-Tuning
+### LLMs · GenAI · Fine-Tuning
 The core of my current work: adapting, serving, and augmenting large language models.
 
 &nbsp;
@@ -63,7 +63,7 @@ The core of my current work: adapting, serving, and augmenting large language mo
 ![LangGraph](https://img.shields.io/badge/LangGraph-6B48FF?style=for-the-badge&logo=langgraph&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
 
-### 🧠 Deep Learning
+### Deep Learning
 Neural architectures across NLP, audio, vision, and scientific domains.
 
 &nbsp;
@@ -73,7 +73,7 @@ Neural architectures across NLP, audio, vision, and scientific domains.
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 
-### 📈 Machine Learning
+### Machine Learning
 Gradient-boosted ensembles and classical modelling for tabular and competition work.
 
 &nbsp;
@@ -83,7 +83,7 @@ Gradient-boosted ensembles and classical modelling for tabular and competition w
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 
-### ⚙️ MLOps · Serving · Cloud
+### MLOps · Serving · Cloud
 Turning models into reproducible, containerized, cloud-served systems.
 
 &nbsp;
@@ -97,7 +97,7 @@ Turning models into reproducible, containerized, cloud-served systems.
 ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
-### 🐍 Languages & Tooling
+### Languages & Tooling
 &nbsp;
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge)
@@ -204,21 +204,6 @@ I ship complete systems, not just notebooks — the full lifecycle, delivered it
 - **Reproducibility** — versioned experiments and documented research logs (see the ROGII repo for a full audit trail).
 - **Deployment** — FastAPI / Flask REST services, containerized with Docker, on AWS, GCP Cloud Run, and Azure.
 - **Monitoring & CI/CD** — data/model drift monitoring (Evidently AI) with automated delivery pipelines.
-
----
-
-## ▮ GitHub Analytics
-
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=homeshwarnelakurthi&theme=github_dark" height="180"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=homeshwarnelakurthi&theme=github_dark" height="180"/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=homeshwarnelakurthi&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" width="60%"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=homeshwarnelakurthi&theme=github-dark&hide_border=true&bg_color=0D1117&color=58a6ff&line=58a6ff&point=ffffff&area=true" width="95%"/>
-
-</div>
 
 ---
 
