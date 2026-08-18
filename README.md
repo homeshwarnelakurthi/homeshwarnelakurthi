@@ -23,6 +23,7 @@ LLM fine-tuning & reasoning  ·  Generative AI / RAG  ·  competition-grade deep
 ~ $ ./status --now
 Competing: RSNA Knee Abnormality Detection — knee MRI, 12 findings, macro ROC-AUC
            Biohub Cell Tracking During Development — zebrafish, 3D + time
+           Kaggriculture — two-player farming-sim agent, 5.2k teams
 
 ~ $ cat approach.txt
 Building modern ML systems end to end — from research and fine-tuning
@@ -129,6 +130,7 @@ Where I sharpen modeling depth — rigorous cross-validation, ensembling, domain
 COMPETITION                          DOMAIN                  STACK / APPROACH
 ──────────────────────────────────────────────────────────────────────────────────────
 RSNA Knee Abnormality  [in progress] Medical Imaging (MRI)   weak supervision from reports · grouped CV · 12-label AUC
+Kaggriculture          [in progress] Agent / Game AI         route search · market price modelling · closed-loop benchmarks
 Biohub Cell Tracking   [in progress] 3D + Time Microscopy    lineage tracking · scorer-driven node budget · LOEO CV
 NVIDIA Nemotron Reasoning            LLM Reasoning           LoRA · CoT SFT · vLLM · PEFT · synthetic data
 CAFA-6 Protein Function              Computational Biology   ESM embeddings · SE-ResNet · ensemble · GO propagation
@@ -143,6 +145,7 @@ ROGII Wellbore Geology               Geospatial Regression   LightGBM residuals 
 <div align="center">
 
 [RSNA Knee](https://github.com/homeshwarnelakurthi/RSNA-Knee-Abnormality-Detection) ·
+[Kaggriculture](https://github.com/homeshwarnelakurthi/Kaggriculture) ·
 [Cell Tracking](https://github.com/homeshwarnelakurthi/Biohub---Cell-Tracking-During-Development) ·
 [Nemotron Lab](https://github.com/homeshwarnelakurthi/nemotron-reasoning-lab) ·
 [CAFA-6](https://github.com/homeshwarnelakurthi/CAFA-6-Protein-Function-Prediction) ·
@@ -170,13 +173,14 @@ Fine-tuning, agentic systems, and retrieval-augmented LLM applications, plus end
 | [endtoend_nlp_project](https://github.com/homeshwarnelakurthi/endtoend_nlp_project) | Hate-speech detection | End-to-end NLP classification, Google Cloud Run, FastAPI, Docker |
 | [contact_center](https://github.com/homeshwarnelakurthi/contact_center) | Contact-center conversation analytics | NLP processing pipeline |
 
-### Deep Learning & Competitions
-PyTorch deep learning and gradient-boosted ensembles across medical imaging, microscopy, audio, biology, mathematics, and geoscience.
+### Competitions — Deep Learning & Decision Agents
+PyTorch deep learning, gradient-boosted ensembles, and search-based agents across medical imaging, microscopy, audio, biology, mathematics, geoscience, and simulation.
 
 | Repository | Focus | Techniques |
 |---|---|---|
 | [RSNA-Knee-Abnormality-Detection](https://github.com/homeshwarnelakurthi/RSNA-Knee-Abnormality-Detection) | Knee MRI — 12 binary findings, macro ROC-AUC | Weak supervision (58 of 4,407 studies carry labels), multilingual report labeller, grouped CV against scanner leakage, DICOM pixel cache, Kaggle-to-Kaggle pipeline |
 | [Biohub---Cell-Tracking-During-Development](https://github.com/homeshwarnelakurthi/Biohub---Cell-Tracking-During-Development) | Zebrafish cell detection & lineage tracking in 3D + time | Metric-source analysis, node-budget optimisation, leave-one-embryo-out CV, logged experiment record |
+| [Kaggriculture](https://github.com/homeshwarnelakurthi/Kaggriculture) | Two-player farming-simulation agent | Whole-episode route search, dynamic market price modelling, engine-mechanics analysis, closed-loop benchmarking against frontier agents over paired seeds |
 | [birdclef-2026](https://github.com/homeshwarnelakurthi/birdclef-2026) | Bioacoustic species classification | PyTorch, spectrograms, audio embeddings, pseudo-labelling |
 | [CAFA-6-Protein-Function-Prediction](https://github.com/homeshwarnelakurthi/CAFA-6-Protein-Function-Prediction) | Protein function (multi-label) | ESM embeddings, SE-ResNet, ensemble, GO propagation |
 | [Stanford-RNA-3D-Folding-](https://github.com/homeshwarnelakurthi/Stanford-RNA-3D-Folding-) | RNA tertiary structure | Sequence-to-structure deep learning |
