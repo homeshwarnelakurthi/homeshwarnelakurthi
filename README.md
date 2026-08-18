@@ -21,11 +21,6 @@
 LLM fine-tuning & reasoning  ·  Generative AI / RAG  ·  competition-grade deep learning
 
 ~ $ ./status --now
-Competing: RSNA Knee Abnormality Detection — knee MRI, 12 findings, macro ROC-AUC
-           Biohub Cell Tracking During Development — zebrafish, 3D + time
-           Kaggriculture — two-player farming-sim agent, 5.2k teams
-
-~ $ cat approach.txt
 Building modern ML systems end to end — from research and fine-tuning
 to reproducible, cloud-served pipelines.
 ```
@@ -129,9 +124,9 @@ Where I sharpen modeling depth — rigorous cross-validation, ensembling, domain
 ```text
 COMPETITION                          DOMAIN                  STACK / APPROACH
 ──────────────────────────────────────────────────────────────────────────────────────
-RSNA Knee Abnormality  [in progress] Medical Imaging (MRI)   weak supervision from reports · grouped CV · 12-label AUC
-Kaggriculture          [in progress] Agent / Game AI         route search · market price modelling · closed-loop benchmarks
-Biohub Cell Tracking   [in progress] 3D + Time Microscopy    lineage tracking · scorer-driven node budget · LOEO CV
+RSNA Knee Abnormality                Medical Imaging (MRI)   weak supervision from reports · grouped CV · 12-label AUC
+Kaggriculture                        Agent / Game AI         route search · market price modelling · closed-loop benchmarks
+Biohub Cell Tracking                 3D + Time Microscopy    lineage tracking · scorer-driven node budget · LOEO CV
 NVIDIA Nemotron Reasoning            LLM Reasoning           LoRA · CoT SFT · vLLM · PEFT · synthetic data
 CAFA-6 Protein Function              Computational Biology   ESM embeddings · SE-ResNet · ensemble · GO propagation
 BirdCLEF 2026                        Bioacoustics / Audio    PyTorch · spectrograms · Perch embeddings · pseudo-labels
