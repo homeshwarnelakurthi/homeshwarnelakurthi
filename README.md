@@ -21,6 +21,10 @@
 LLM fine-tuning & reasoning  ·  Generative AI / RAG  ·  competition-grade deep learning
 
 ~ $ ./status --now
+Competing: RSNA Knee Abnormality Detection — knee MRI, 12 findings, macro ROC-AUC
+           Biohub Cell Tracking During Development — zebrafish, 3D + time
+
+~ $ cat approach.txt
 Building modern ML systems end to end — from research and fine-tuning
 to reproducible, cloud-served pipelines.
 ```
@@ -62,6 +66,8 @@ The core of my current work: adapting, serving, and augmenting large language mo
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-6B48FF?style=for-the-badge&logo=langgraph&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Chroma](https://img.shields.io/badge/Chroma-6C3EF6?style=for-the-badge)
+![NVIDIA NIM](https://img.shields.io/badge/NVIDIA%20NIM-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 
 ### Deep Learning
 Neural architectures across NLP, audio, vision, and scientific domains.
@@ -72,6 +78,7 @@ Neural architectures across NLP, audio, vision, and scientific domains.
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![pydicom](https://img.shields.io/badge/pydicom%20%2F%20DICOM-0088CC?style=for-the-badge)
 
 ### Machine Learning
 Gradient-boosted ensembles and classical modelling for tabular and competition work.
@@ -88,6 +95,7 @@ Turning models into reproducible, containerized, cloud-served systems.
 
 &nbsp;
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
@@ -120,6 +128,8 @@ Where I sharpen modeling depth — rigorous cross-validation, ensembling, domain
 ```text
 COMPETITION                          DOMAIN                  STACK / APPROACH
 ──────────────────────────────────────────────────────────────────────────────────────
+RSNA Knee Abnormality  [in progress] Medical Imaging (MRI)   weak supervision from reports · grouped CV · 12-label AUC
+Biohub Cell Tracking   [in progress] 3D + Time Microscopy    lineage tracking · scorer-driven node budget · LOEO CV
 NVIDIA Nemotron Reasoning            LLM Reasoning           LoRA · CoT SFT · vLLM · PEFT · synthetic data
 CAFA-6 Protein Function              Computational Biology   ESM embeddings · SE-ResNet · ensemble · GO propagation
 BirdCLEF 2026                        Bioacoustics / Audio    PyTorch · spectrograms · Perch embeddings · pseudo-labels
@@ -132,6 +142,8 @@ ROGII Wellbore Geology               Geospatial Regression   LightGBM residuals 
 
 <div align="center">
 
+[RSNA Knee](https://github.com/homeshwarnelakurthi/RSNA-Knee-Abnormality-Detection) ·
+[Cell Tracking](https://github.com/homeshwarnelakurthi/Biohub---Cell-Tracking-During-Development) ·
 [Nemotron Lab](https://github.com/homeshwarnelakurthi/nemotron-reasoning-lab) ·
 [CAFA-6](https://github.com/homeshwarnelakurthi/CAFA-6-Protein-Function-Prediction) ·
 [BirdCLEF](https://github.com/homeshwarnelakurthi/birdclef-2026) ·
@@ -146,22 +158,25 @@ ROGII Wellbore Geology               Geospatial Regression   LightGBM residuals 
 
 ## ▮ Project Showcase
 
-### LLM Reasoning, NLP & Generative AI
-Fine-tuning and retrieval-augmented LLM systems, plus end-to-end NLP pipelines with transformer models and cloud-native serving.
+### LLM Reasoning, Agents, NLP & Generative AI
+Fine-tuning, agentic systems, and retrieval-augmented LLM applications, plus end-to-end NLP pipelines with transformer models and cloud-native serving.
 
 | Repository | Focus | Techniques |
 |---|---|---|
 | [nemotron-reasoning-lab](https://github.com/homeshwarnelakurthi/nemotron-reasoning-lab) | Structured reasoning fine-tuning | LoRA (rank 32), CoT SFT, PEFT, TRL, vLLM, synthetic data |
+| [OhioRoadWatch](https://github.com/homeshwarnelakurthi/OhioRoadWatch) | Agentic monitoring of live highway conditions | LangGraph agent, NVIDIA NIM vision-language classification, Chroma semantic index, live API ingest, Streamlit dashboard |
 | [Medical_chatbot](https://github.com/homeshwarnelakurthi/Medical_chatbot) | Medical conversational assistant | RAG, LangChain, vector retrieval, LLMs |
 | [text-summarizer-project](https://github.com/homeshwarnelakurthi/text-summarizer-project) | Abstractive summarization | HuggingFace Transformers, modular pipeline, FastAPI, Docker |
 | [endtoend_nlp_project](https://github.com/homeshwarnelakurthi/endtoend_nlp_project) | Hate-speech detection | End-to-end NLP classification, Google Cloud Run, FastAPI, Docker |
 | [contact_center](https://github.com/homeshwarnelakurthi/contact_center) | Contact-center conversation analytics | NLP processing pipeline |
 
 ### Deep Learning & Competitions
-PyTorch deep learning and gradient-boosted ensembles across audio, biology, mathematics, and geoscience.
+PyTorch deep learning and gradient-boosted ensembles across medical imaging, microscopy, audio, biology, mathematics, and geoscience.
 
 | Repository | Focus | Techniques |
 |---|---|---|
+| [RSNA-Knee-Abnormality-Detection](https://github.com/homeshwarnelakurthi/RSNA-Knee-Abnormality-Detection) | Knee MRI — 12 binary findings, macro ROC-AUC | Weak supervision (58 of 4,407 studies carry labels), multilingual report labeller, grouped CV against scanner leakage, DICOM pixel cache, Kaggle-to-Kaggle pipeline |
+| [Biohub---Cell-Tracking-During-Development](https://github.com/homeshwarnelakurthi/Biohub---Cell-Tracking-During-Development) | Zebrafish cell detection & lineage tracking in 3D + time | Metric-source analysis, node-budget optimisation, leave-one-embryo-out CV, logged experiment record |
 | [birdclef-2026](https://github.com/homeshwarnelakurthi/birdclef-2026) | Bioacoustic species classification | PyTorch, spectrograms, audio embeddings, pseudo-labelling |
 | [CAFA-6-Protein-Function-Prediction](https://github.com/homeshwarnelakurthi/CAFA-6-Protein-Function-Prediction) | Protein function (multi-label) | ESM embeddings, SE-ResNet, ensemble, GO propagation |
 | [Stanford-RNA-3D-Folding-](https://github.com/homeshwarnelakurthi/Stanford-RNA-3D-Folding-) | RNA tertiary structure | Sequence-to-structure deep learning |
