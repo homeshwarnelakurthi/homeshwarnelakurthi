@@ -119,38 +119,20 @@ Turning models into reproducible, containerized, cloud-served systems.
 
 </div>
 
-Where I sharpen modeling depth — rigorous cross-validation, ensembling, domain-specific feature engineering, and disciplined experiment logging.
+Where I sharpen modeling depth. The same habits run through every competition: **read the scorer before the prose**, **validate the way the hidden test set is split** (grouped / leave-one-out, never random folds), **log every experiment including the failures**, and **ship one change at a time**.
 
-```text
-COMPETITION                          DOMAIN                  STACK / APPROACH
-──────────────────────────────────────────────────────────────────────────────────────
-RSNA Knee Abnormality                Medical Imaging (MRI)   weak supervision from reports · grouped CV · 12-label AUC
-Kaggriculture                        Agent / Game AI         route search · market price modelling · closed-loop benchmarks
-Biohub Cell Tracking                 3D + Time Microscopy    lineage tracking · scorer-driven node budget · LOEO CV
-NVIDIA Nemotron Reasoning            LLM Reasoning           LoRA · CoT SFT · vLLM · PEFT · synthetic data
-CAFA-6 Protein Function              Computational Biology   ESM embeddings · SE-ResNet · ensemble · GO propagation
-BirdCLEF 2026                        Bioacoustics / Audio    PyTorch · spectrograms · Perch embeddings · pseudo-labels
-Stanford RNA 3D Folding              Structural Biology      sequence-to-structure deep learning
-AI Mathematical Olympiad             LLM Reasoning           chain-of-thought · tool-augmented LLMs
-March ML Mania 2026                  Sports Prediction       Elo ratings · XGBoost · LightGBM ensemble
-ROGII Wellbore Geology               Geospatial Regression   LightGBM residuals · GroupKFold · GP/kriging research
-──────────────────────────────────────────────────────────────────────────────────────
-```
-
-<div align="center">
-
-[RSNA Knee](https://github.com/homeshwarnelakurthi/RSNA-Knee-Abnormality-Detection) ·
-[Kaggriculture](https://github.com/homeshwarnelakurthi/Kaggriculture) ·
-[Cell Tracking](https://github.com/homeshwarnelakurthi/Biohub---Cell-Tracking-During-Development) ·
-[Nemotron Lab](https://github.com/homeshwarnelakurthi/nemotron-reasoning-lab) ·
-[CAFA-6](https://github.com/homeshwarnelakurthi/CAFA-6-Protein-Function-Prediction) ·
-[BirdCLEF](https://github.com/homeshwarnelakurthi/birdclef-2026) ·
-[RNA Folding](https://github.com/homeshwarnelakurthi/Stanford-RNA-3D-Folding-) ·
-[AI Math Olympiad](https://github.com/homeshwarnelakurthi/AI-Mathematical-Olympiad) ·
-[March Mania](https://github.com/homeshwarnelakurthi/March-Machine-Learning-Mania-2026) ·
-[ROGII Geology](https://github.com/homeshwarnelakurthi/kaggle-rogii-wellbore-geology)
-
-</div>
+| Competition | Domain | Approach | Models & Techniques |
+|---|---|---|---|
+| [RSNA Knee Abnormality Detection](https://github.com/homeshwarnelakurthi/RSNA-Knee-Abnormality-Detection) | Medical imaging (knee MRI, 12 findings) | Framed as weak supervision: very few studies carry labels, so a multilingual report labeller turns radiology reports into severity-graded soft labels for the vision model. Folds grouped by scanner/site to stop the model memorising the hospital. Fully Kaggle-hosted pipeline over ~570 GB of DICOM | ResNet slices-as-channels · masked attention across MRI series · soft labels + confidence-weighted loss · GroupKFold · anti-site augmentation · DICOM pixel cache |
+| [Kaggriculture](https://github.com/homeshwarnelakurthi/Kaggriculture) | Game AI / simulation | Two-player farming-and-market agent. Began as a heuristic planner that values every job and assigns workers by value minus travel; grew into cooperating controllers for farm schedule, worker repair, supply, market-sale timing and endgame. Every change is tested offline over paired seeds with seat swaps against several opponent styles | Whole-episode route search · market price modelling · constraint search · bounded endgame simulation · engine-mechanics analysis |
+| [Biohub Cell Tracking](https://github.com/homeshwarnelakurthi/Biohub---Cell-Tracking-During-Development) | 3D + time microscopy | Built trustworthy evaluation first: the organisers' own metric, leave-one-embryo-out validation and bootstrap intervals. Then a CPU replay of the tracking post-processing so ideas take seconds instead of GPU-hours. Replaced a geometric cell-division heuristic with a learned ranker | Detection + ILP tracking pipeline · DeepCenter · logistic-regression division ranker · node-budget optimisation · AST-extracted replay harness |
+| [NVIDIA Nemotron Reasoning](https://github.com/homeshwarnelakurthi/nemotron-reasoning-lab) | LLM reasoning | Generate synthetic rule-induction puzzles with programmatic, verified chain-of-thought; fine-tune the model to a fixed `oxed{}` answer format; evaluate with an exact replica of the competition harness | Nemotron-3-Nano-30B · rank-32 attention-only LoRA · TRL SFT · PEFT · vLLM |
+| [CAFA-6 Protein Function](https://github.com/homeshwarnelakurthi/CAFA-6-Protein-Function-Prediction) | Computational biology | Multi-label GO-term prediction from protein language-model embeddings, with predictions propagated up the GO hierarchy | ESM embeddings · SE-ResNet · ensembling · GO propagation |
+| [BirdCLEF 2026](https://github.com/homeshwarnelakurthi/birdclef-2026) | Bioacoustics | Species identification from field recordings using mel-spectrograms and pretrained audio embeddings, extended with pseudo-labelled soundscapes | PyTorch · Perch embeddings · transfer learning · pseudo-labelling · ONNX |
+| [Stanford RNA 3D Folding](https://github.com/homeshwarnelakurthi/Stanford-RNA-3D-Folding-) | Structural biology | Predict RNA 3D coordinates directly from sequence | Sequence-to-structure deep learning |
+| [AI Mathematical Olympiad](https://github.com/homeshwarnelakurthi/AI-Mathematical-Olympiad) | LLM reasoning | Olympiad problems solved with step-by-step reasoning plus code execution to check answers | Chain-of-thought · tool-augmented LLMs |
+| [March ML Mania 2026](https://github.com/homeshwarnelakurthi/March-Machine-Learning-Mania-2026) | Sports forecasting | Team-strength ratings as features for calibrated win probabilities | Elo ratings · XGBoost · LightGBM ensemble |
+| [ROGII Wellbore Geology](https://github.com/homeshwarnelakurthi/kaggle-rogii-wellbore-geology) | Geospatial regression | Model residuals over a geological baseline, validated by well groups; spatial interpolation explored as research | LightGBM · GroupKFold · Gaussian process / kriging |
 
 ---
 
@@ -167,21 +149,6 @@ Fine-tuning, agentic systems, and retrieval-augmented LLM applications, plus end
 | [text-summarizer-project](https://github.com/homeshwarnelakurthi/text-summarizer-project) | Abstractive summarization | HuggingFace Transformers, modular pipeline, FastAPI, Docker |
 | [endtoend_nlp_project](https://github.com/homeshwarnelakurthi/endtoend_nlp_project) | Hate-speech detection | End-to-end NLP classification, Google Cloud Run, FastAPI, Docker |
 | [contact_center](https://github.com/homeshwarnelakurthi/contact_center) | Contact-center conversation analytics | NLP processing pipeline |
-
-### Competitions — Deep Learning & Decision Agents
-PyTorch deep learning, gradient-boosted ensembles, and search-based agents across medical imaging, microscopy, audio, biology, mathematics, geoscience, and simulation.
-
-| Repository | Focus | Techniques |
-|---|---|---|
-| [RSNA-Knee-Abnormality-Detection](https://github.com/homeshwarnelakurthi/RSNA-Knee-Abnormality-Detection) | Knee MRI — 12 binary findings, macro ROC-AUC | Weak supervision (58 of 4,407 studies carry labels), multilingual report labeller, grouped CV against scanner leakage, DICOM pixel cache, Kaggle-to-Kaggle pipeline |
-| [Biohub---Cell-Tracking-During-Development](https://github.com/homeshwarnelakurthi/Biohub---Cell-Tracking-During-Development) | Zebrafish cell detection & lineage tracking in 3D + time | Metric-source analysis, node-budget optimisation, leave-one-embryo-out CV, logged experiment record |
-| [Kaggriculture](https://github.com/homeshwarnelakurthi/Kaggriculture) | Two-player farming-simulation agent | Whole-episode route search, dynamic market price modelling, engine-mechanics analysis, closed-loop benchmarking against frontier agents over paired seeds |
-| [birdclef-2026](https://github.com/homeshwarnelakurthi/birdclef-2026) | Bioacoustic species classification | PyTorch, spectrograms, audio embeddings, pseudo-labelling |
-| [CAFA-6-Protein-Function-Prediction](https://github.com/homeshwarnelakurthi/CAFA-6-Protein-Function-Prediction) | Protein function (multi-label) | ESM embeddings, SE-ResNet, ensemble, GO propagation |
-| [Stanford-RNA-3D-Folding-](https://github.com/homeshwarnelakurthi/Stanford-RNA-3D-Folding-) | RNA tertiary structure | Sequence-to-structure deep learning |
-| [AI-Mathematical-Olympiad](https://github.com/homeshwarnelakurthi/AI-Mathematical-Olympiad) | LLM math reasoning | Chain-of-thought, tool-augmented LLMs |
-| [March-Machine-Learning-Mania-2026](https://github.com/homeshwarnelakurthi/March-Machine-Learning-Mania-2026) | Tournament prediction | Elo, XGBoost, LightGBM |
-| [kaggle-rogii-wellbore-geology](https://github.com/homeshwarnelakurthi/kaggle-rogii-wellbore-geology) | Geospatial TVT regression | LightGBM residual model, GroupKFold, GP/kriging, documented experiment log |
 
 ### MLOps & Cloud Data Engineering
 Production ML lifecycle — modular pipelines, containerization, CI/CD, monitoring, and cloud data platforms.
@@ -209,7 +176,7 @@ I ship complete systems, not just notebooks — the full lifecycle, delivered it
 
 ```text
   data ──▶ features ──▶ model ─────────────▶ FastAPI ──▶ Docker ──▶ Cloud
-                        PyTorch · LightGBM                          AWS · GCP · Azure
+                        PyTorch · LightGBM · LoRA                   AWS · GCP · Azure
                         │
                         └─ GroupKFold CV · experiment logs · drift monitoring · CI/CD
 ```
