@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0D1117,50:1a1a2e,100:16213e&height=210&section=header&text=Homeshwar%20Rao%20Nelakurthi&fontSize=40&fontColor=58a6ff&animation=fadeIn&fontAlignY=40&desc=Machine%20Learning%20Engineer%20%C2%B7%20LLM%20%2F%20GenAI%20%C2%B7%20Deep%20Learning&descAlignY=60&descSize=18&descColor=8b949e" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0D1117,50:1a1a2e,100:16213e&height=210&section=header&text=Homeshwar%20Rao%20Nelakurthi&fontSize=40&fontColor=58a6ff&animation=fadeIn&fontAlignY=40&desc=AI%20Engineer%20%C2%B7%20Agent%20Systems%20%C2%B7%20LLM%20Fine--Tuning%20%26%20Serving&descAlignY=60&descSize=18&descColor=8b949e" width="100%"/>
 
 ![LLM Fine-Tuning](https://img.shields.io/badge/LLM%20Fine--Tuning-LoRA%20%C2%B7%20PEFT%20%C2%B7%20SFT-76B900?style=for-the-badge)
 &nbsp;
@@ -18,16 +18,34 @@
 
 ```bash
 ~ $ cat focus.txt
-LLM fine-tuning & reasoning  ·  Generative AI / RAG  ·  competition-grade deep learning
+agent systems (tools · memory · retrieval · evals)  ·  open-source LLM fine-tuning & serving
 
 ~ $ ./status --now
-Building modern ML systems end to end — from research and fine-tuning
-to reproducible, cloud-served pipelines.
+Building LLM agents and the models behind them, from fine-tuning
+and evaluation through to a served, monitored system.
 ```
 
 ---
 
-## ▮ Featured — NVIDIA Nemotron Reasoning Lab
+## ▮ Featured: OhioRoadWatch, an agent over live highway cameras
+
+<div align="center">
+
+[![LangGraph](https://img.shields.io/badge/LangGraph-ReAct%20agent-6B48FF?style=for-the-badge)](https://github.com/homeshwarnelakurthi/OhioRoadWatch)
+&nbsp;
+![NVIDIA NIM](https://img.shields.io/badge/NVIDIA%20NIM-Llama%203.2%20Vision%20%C2%B7%20Llama%203.1%2070B-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+&nbsp;
+![Chroma](https://img.shields.io/badge/memory-Chroma%20%2B%20SQLite-6C3EF6?style=for-the-badge)
+
+</div>
+
+A **LangGraph ReAct agent** that pulls live traffic-camera feeds from Ohio's OHGO API, classifies road conditions with an open-weight vision-language model (Llama 3.2 11B Vision via NVIDIA NIM), and reasons over the results with Llama 3.1 70B. Observations are stored in SQLite and indexed in Chroma so the agent can retrieve past conditions, a Streamlit dashboard shows the current picture, and desktop notifications fire when something changes.
+
+> **[→ homeshwarnelakurthi/OhioRoadWatch](https://github.com/homeshwarnelakurthi/OhioRoadWatch)**
+
+---
+
+## ▮ Featured: NVIDIA Nemotron Reasoning Lab
 
 <div align="center">
 
@@ -61,7 +79,6 @@ The core of my current work: adapting, serving, and augmenting large language mo
 ![RAG](https://img.shields.io/badge/RAG-1C3C3C?style=for-the-badge)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-6B48FF?style=for-the-badge&logo=langgraph&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![Chroma](https://img.shields.io/badge/Chroma-6C3EF6?style=for-the-badge)
 ![NVIDIA NIM](https://img.shields.io/badge/NVIDIA%20NIM-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 
@@ -126,7 +143,7 @@ Where I sharpen modeling depth. The same habits run through every competition: *
 | [RSNA Knee Abnormality Detection](https://github.com/homeshwarnelakurthi/RSNA-Knee-Abnormality-Detection) | Medical imaging (knee MRI, 12 findings) | Framed as weak supervision: very few studies carry labels, so a multilingual report labeller turns radiology reports into severity-graded soft labels for the vision model. Folds grouped by scanner/site to stop the model memorising the hospital. Fully Kaggle-hosted pipeline over ~570 GB of DICOM | ResNet slices-as-channels · masked attention across MRI series · soft labels + confidence-weighted loss · GroupKFold · anti-site augmentation · DICOM pixel cache |
 | [Kaggriculture](https://github.com/homeshwarnelakurthi/Kaggriculture) | Game AI / simulation | Two-player farming-and-market agent. Began as a heuristic planner that values every job and assigns workers by value minus travel; grew into cooperating controllers for farm schedule, worker repair, supply, market-sale timing and endgame. Every change is tested offline over paired seeds with seat swaps against several opponent styles | Whole-episode route search · market price modelling · constraint search · bounded endgame simulation · engine-mechanics analysis |
 | [Biohub Cell Tracking](https://github.com/homeshwarnelakurthi/Biohub---Cell-Tracking-During-Development) | 3D + time microscopy | Built trustworthy evaluation first: the organisers' own metric, leave-one-embryo-out validation and bootstrap intervals. Then a CPU replay of the tracking post-processing so ideas take seconds instead of GPU-hours. Replaced a geometric cell-division heuristic with a learned ranker | Detection + ILP tracking pipeline · DeepCenter · logistic-regression division ranker · node-budget optimisation · AST-extracted replay harness |
-| [NVIDIA Nemotron Reasoning](https://github.com/homeshwarnelakurthi/nemotron-reasoning-lab) | LLM reasoning | Generate synthetic rule-induction puzzles with programmatic, verified chain-of-thought; fine-tune the model to a fixed `oxed{}` answer format; evaluate with an exact replica of the competition harness | Nemotron-3-Nano-30B · rank-32 attention-only LoRA · TRL SFT · PEFT · vLLM |
+| [NVIDIA Nemotron Reasoning](https://github.com/homeshwarnelakurthi/nemotron-reasoning-lab) | LLM reasoning | Generate synthetic rule-induction puzzles with programmatic, verified chain-of-thought; fine-tune the model to a fixed `\boxed{}` answer format; evaluate with an exact replica of the competition harness | Nemotron-3-Nano-30B · rank-32 attention-only LoRA · TRL SFT · PEFT · vLLM |
 | [CAFA-6 Protein Function](https://github.com/homeshwarnelakurthi/CAFA-6-Protein-Function-Prediction) | Computational biology | Multi-label GO-term prediction from protein language-model embeddings, with predictions propagated up the GO hierarchy | ESM embeddings · SE-ResNet · ensembling · GO propagation |
 | [BirdCLEF 2026](https://github.com/homeshwarnelakurthi/birdclef-2026) | Bioacoustics | Species identification from field recordings using mel-spectrograms and pretrained audio embeddings, extended with pseudo-labelled soundscapes | PyTorch · Perch embeddings · transfer learning · pseudo-labelling · ONNX |
 | [Stanford RNA 3D Folding](https://github.com/homeshwarnelakurthi/Stanford-RNA-3D-Folding-) | Structural biology | Predict RNA 3D coordinates directly from sequence | Sequence-to-structure deep learning |
@@ -158,8 +175,8 @@ Production ML lifecycle — modular pipelines, containerization, CI/CD, monitori
 | [MLOPs-Production-Ready-Machine-Learning-Project](https://github.com/homeshwarnelakurthi/MLOPs-Production-Ready-Machine-Learning-Project) | Production ML system | MongoDB, AWS S3, FastAPI, Docker, Evidently AI monitoring, CI/CD |
 | [Azure-DE-Project-Resources](https://github.com/homeshwarnelakurthi/Azure-DE-Project-Resources) | Cloud data engineering | Data pipelines, lakehouse / ETL on Microsoft Azure |
 
-### Predictive Modeling & Analytics
-Classical ML, feature engineering, and exploratory data analysis on large real-world datasets.
+<details>
+<summary><b>Earlier work: predictive modeling & analytics notebooks</b></summary>
 
 | Repository | Focus | Techniques |
 |---|---|---|
@@ -167,6 +184,8 @@ Classical ML, feature engineering, and exploratory data analysis on large real-w
 | [Uber-Data-Analysis-Predictions](https://github.com/homeshwarnelakurthi/Uber-Data-Analysis-Predictions) | Ride-demand analysis | EDA, predictive modeling |
 | [Amazon-Cell-Phones-Analysis-using-Exploratory-Data-Analysis-](https://github.com/homeshwarnelakurthi/Amazon-Cell-Phones-Analysis-using-Exploratory-Data-Analysis-) | Product / review analytics | Exploratory data analysis, visualization |
 | [movielens-case-study](https://github.com/homeshwarnelakurthi/movielens-case-study) | Recommendation & rating prediction | EDA, multi-model comparison, feature engineering |
+
+</details>
 
 ---
 
